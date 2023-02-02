@@ -1,0 +1,52 @@
+.single-blog {
+    float: left;
+    width: 380px;
+    margin-right: 30px;
+    border: 1px solid $border_gray;
+    &:last-child {
+        margin-right: 0;
+    }
+    .blog-img {
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+    }
+    .blog-content {
+        padding: 20px;
+        h4 {
+            text-transform: capitalize;
+            font-size: 22px;
+        }
+        
+p {
+    margin: 20px 0;
+}
+    }
+}
+
+
+
+
+
+.single-blog
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content {}
+
+.blog-content {}
+
+h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+h4 {}
+
+p {
+    margin: 20px 0;
+}
+
+p {}

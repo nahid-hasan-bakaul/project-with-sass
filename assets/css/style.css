@@ -74,7 +74,7 @@ ul {
 }
 .btn.border-btn:hover {
   border-color: rgb(67, 163, 67);
-  color: rgb(228, 188, 25);
+  color: rgb(61, 100, 185);
 }
 
 /* Section Title CSS */
@@ -371,6 +371,15 @@ body {
   float: left;
   margin-bottom: 30px;
   border: 1px solid #ddd;
+  transition: 0.3s;
+}
+.single-service:hover {
+  border-color: #ff7720;
+}
+.single-service:hover i {
+  background-color: #ff7720;
+  color: #fff;
+  border-color: #ff7720;
 }
 .single-service:last-child {
   margin-right: 0;
@@ -383,9 +392,86 @@ body {
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
+  transition: 0.3s;
 }
 .single-service h4 {
   text-transform: capitalize;
   font-size: 22px;
+  margin: 20px 0;
+}
+
+.single-portfolio {
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin-right: 30px;
+  width: 370px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.single-portfolio:last-child {
+  margin-right: 0;
+}
+.single-portfolio h4 {
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.cta-area {
+  color: #fff;
+}
+.cta-area h4 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.cta-area p {
+  margin: 30px 0;
+}
+
+.single-blog {
+  float: left;
+  width: 380px;
+  margin-right: 30px;
+  border: 1px solid #ddd;
+}
+.single-blog:last-child {
+  margin-right: 0;
+}
+.single-blog .blog-img {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.single-blog .blog-content {
+  padding: 20px;
+}
+.single-blog .blog-content h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.single-blog .blog-content p {
+  margin: 20px 0;
+}
+
+.single-blog .blog-content {
+  padding: 20px;
+}
+
+h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+p {
   margin: 20px 0;
 }/*# sourceMappingURL=style.css.map */

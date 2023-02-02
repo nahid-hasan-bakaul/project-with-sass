@@ -10,6 +10,15 @@
     float: left;
     margin-bottom: 30px;
     border: 1px solid $border_gray;
+    transition: .3s;
+    &:hover{
+        border-color: $primary_color;
+        i{
+            background-color: $primary_color;
+            color: $white;
+            border-color: $primary_color;
+         }
+    }
     &:last-child {
         margin-right: 0;
     }
@@ -21,6 +30,7 @@
         line-height: 50px;
         text-align: center;
         border-radius: 50%;
+        transition: .3s;
     }
     h4 {
         text-transform: capitalize;
